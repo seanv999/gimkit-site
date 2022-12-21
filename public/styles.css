@@ -1,0 +1,75 @@
+::placeholder {
+    text-align: center;
+    font-size: large;
+}
+#title{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    font-feature-settings: "tnum","tnum";
+    font-family: GimkitSF, sans-serif;
+    color: rgb(0, 0, 0);
+    font-variant: normal !important;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    font-size: 62px;
+    font-weight: 800;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+#inputs{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: white;
+
+}
+
+#inputs>input{
+    display: flex;
+    align-self: center;
+    padding: 10px;
+    border: 2px solid GREY;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+#inputs>button{
+    margin-top: 5px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    --antd-wave-shadow-color: #1890ff;
+    --scroll-bar: 0;
+    line-height: 1.5;
+    font-feature-settings: "tnum","tnum";
+    font-family: "Product Sans";
+    font-variant: normal !important;
+    overflow-wrap: break-word;
+    box-sizing: border-box;
+    padding: 8px 13px;
+    font-size: 20px;
+    background: rgb(30, 7, 107);
+    color: white;
+    transition: background 0.2s ease 0s;
+    border-radius: 7px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    width: 100%;
+    margin: auto;
+    width: 50%;
+    margin-top: 3%;
+}
+body{
+    background-image: url(/background.png);
+}
